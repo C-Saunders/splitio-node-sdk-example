@@ -1,0 +1,23 @@
+{
+  "name": "splitio-test",
+  "version": "1.0.0",
+  "description": "Testing Split.io Node SDK.",
+  "scripts": {
+    "test": "jest test",
+    "build": "tsc"
+  },
+  "author": "Charlie Saunders",
+  "license": "ISC",
+  "dependencies": {
+    "@splitsoftware/splitio": "^10.15.8",
+    "async-lock": "^1.3.0",
+    "p-event": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/async-lock": "^1.1.3",
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  }
+}

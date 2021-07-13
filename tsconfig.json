@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "lib": [
+      "es2019",
+      "ES2020.String"
+    ],
+    "module": "commonjs",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noLib": false,
+    "allowJs": false,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "composite": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./lib",
+    "types": [
+      "jest",
+      "node"
+    ]
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
